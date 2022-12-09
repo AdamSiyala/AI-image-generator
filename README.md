@@ -10,4 +10,4 @@
 
 ## General info
 This project is a simple AI Image generator.
-Documentation for the API I used can be found here:[Open AI Docs]https://beta.openai.com/docs/introduction)
+Documentation for the API I used can be found here:[Open AI Docs](https://beta.openai.com/docs/introduction)
