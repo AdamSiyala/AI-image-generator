@@ -31,13 +31,13 @@ async function generateImageRequest(prompt, size) {
         });
 
         if(!response.ok) {
+            console.error('An error occurred:', error);
             removeSpinner()
             throw new Error('That image could not be generated. Please try again.')
+            
         } 
 
         const data = await response.json();
-        //console.log(data)
-
         const imageUrl = data.data;
 
         document.querySelector('#image').src = imageUrl
